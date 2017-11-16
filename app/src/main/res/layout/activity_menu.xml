@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="patapignouf.com.tabs.Menu">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="90dp"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/oldButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/menu"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="111dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/introButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/oldButton"
+            android:layout_alignStart="@+id/oldButton"
+            android:layout_below="@+id/menu"
+            android:layout_marginTop="37dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/aproposButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/oldButton"
+            android:layout_alignStart="@+id/oldButton"
+            android:layout_below="@+id/oldButton"
+            android:layout_marginTop="29dp"
+            android:text="Button" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
