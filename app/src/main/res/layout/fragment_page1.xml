@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pageColor1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/Eco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/redArt"
+            android:layout_alignStart="@+id/redArt"
+            android:layout_below="@+id/calcbutton"
+            android:layout_marginTop="37dp"
+            android:text="Vous avez economisé :" />
+
+        <TextView
+            android:id="@+id/res01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/Eco"
+            android:layout_alignBottom="@+id/Eco"
+            android:layout_marginLeft="23dp"
+            android:layout_marginStart="23dp"
+            android:layout_toEndOf="@+id/Eco"
+            android:layout_toRightOf="@+id/Eco"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/eco2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/Eco"
+            android:layout_alignStart="@+id/Eco"
+            android:layout_below="@+id/Eco"
+            android:layout_marginTop="16dp"
+            android:text="Vous devez payer :" />
+
+        <TextView
+            android:id="@+id/res02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/eco2"
+            android:layout_alignBottom="@+id/eco2"
+            android:layout_alignLeft="@+id/res01"
+            android:layout_alignStart="@+id/res01"
+            android:text="0" />
+
+        <EditText
+            android:id="@+id/prixArt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:hint="Prix de l'article"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/eco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/eco2"
+            android:layout_marginEnd="29dp"
+            android:layout_marginRight="29dp"
+            android:layout_marginTop="43dp"
+            android:layout_toLeftOf="@+id/res03"
+            android:layout_toStartOf="@+id/res03"
+            android:text="Vous avez economisé au total :" />
+
+        <TextView
+            android:id="@+id/res03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/eco"
+            android:layout_alignBottom="@+id/eco"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="56dp"
+            android:layout_marginRight="56dp"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/eco3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/res04"
+            android:layout_alignBottom="@+id/res04"
+            android:layout_alignLeft="@+id/eco"
+            android:layout_alignStart="@+id/eco"
+            android:text="Vous devez payer :" />
+
+        <TextView
+            android:id="@+id/res04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/res03"
+            android:layout_alignStart="@+id/res03"
+            android:layout_below="@+id/res03"
+            android:layout_marginTop="14dp"
+            android:text="0" />
+
+        <EditText
+            android:id="@+id/redArt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/prixArt"
+            android:layout_alignStart="@+id/prixArt"
+            android:layout_below="@+id/prixArt"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="Réduction" />
+
+        <Button
+            android:id="@+id/calcbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/redArt"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="21dp"
+            android:text="Calcul" />
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/eco3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp"
+            android:text="Tout supprimer"
+            android:textAlignment="center" />
+    </RelativeLayout>
+</FrameLayout>
