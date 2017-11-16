@@ -17,9 +17,9 @@ public class MainActivity extends AppCompatActivity {
 
     // Titles of the individual pages (displayed in tabs)
     private final String[] PAGE_TITLES = new String[] {
-            "Calcul Solde",
-            "Conversion Monnaie"
-            //"Page 3",
+            "Age 1",
+            "Age 2",
+            "Age 3",
             //"Page 4"
     };
 
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
     private final Fragment[] PAGES = new Fragment[] {
             new Page1Fragment(),
             new Page2Fragment(),
-            //new Page3Fragment(),
+            new Page3Fragment(),
             //new Page4Fragment()
     };
 

@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Projet_TPE</string>
+    <string name="menu">Menu</string>
+    <string name="menuButtonIntro">Introduction</string>
+    <string name="menuButtonOld">Vieillissement</string>
+    <string name="menuButtonCredit">A propos</string>
+    <string name="credit">Projet_TPE</string>
+
 </resources>
