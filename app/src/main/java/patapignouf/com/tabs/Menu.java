@@ -1,5 +1,6 @@
 package patapignouf.com.tabs;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -30,6 +31,9 @@ public class Menu extends AppCompatActivity {
             @Override
             public void onClick(View view) {
              //Actions du bouton
+                Intent introAct = new Intent(getBaseContext(), introductionActivity.class);
+                getBaseContext().startActivity(introAct);
+
             }
         });
 
@@ -40,6 +44,8 @@ public class Menu extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //Actions du bouton
+                Intent oldAct = new Intent(getBaseContext(), MainActivity.class);
+                getBaseContext().startActivity(oldAct);
             }
         });
 

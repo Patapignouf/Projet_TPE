@@ -5,5 +5,6 @@
     <string name="menuButtonOld">Vieillissement</string>
     <string name="menuButtonCredit">A propos</string>
     <string name="credit">Projet_TPE</string>
+    <string name="title_activity_introduction">introductionActivity</string>
 
 </resources>
