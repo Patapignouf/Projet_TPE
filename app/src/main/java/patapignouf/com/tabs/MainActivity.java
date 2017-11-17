@@ -15,13 +15,15 @@ public class MainActivity extends AppCompatActivity {
 
     private final String LOG_TAG = MainActivity.class.getSimpleName();
 
+
+
+
+    String onglet1;
+    String onglet2;
+    String onglet3;
+
     // Titles of the individual pages (displayed in tabs)
-    private final String[] PAGE_TITLES = new String[] {
-            "Age 1",
-            "Age 2",
-            "Age 3",
-            //"Page 4"
-    };
+    private String[] PAGE_TITLES = new String[] {};
 
     // The fragments that are used as the individual pages
     private final Fragment[] PAGES = new Fragment[] {
@@ -39,10 +41,17 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        onglet1 = getResources().getString(R.string.titre_onglet_1);
+        onglet2 = getResources().getString(R.string.titre_onglet_2);
+        onglet3 = getResources().getString(R.string.titre_onglet_3);
+
+        PAGE_TITLES = new String[] { onglet1, onglet2, onglet3,//"Page 4"
+        };
         // Set the Toolbar as the activity's app bar (instead of the default ActionBar)
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+
+        //Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        //setSupportActionBar(toolbar);
 
 
 

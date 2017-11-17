@@ -22,31 +22,53 @@
 
         <Button
             android:id="@+id/oldButton"
-            android:layout_width="wrap_content"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_below="@+id/menu"
             android:layout_centerHorizontal="true"
+
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="false"
+            android:layout_gravity="center"
             android:layout_marginTop="111dp"
             android:text="Button" />
 
         <Button
             android:id="@+id/introButton"
-            android:layout_width="wrap_content"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_alignLeft="@+id/oldButton"
             android:layout_alignStart="@+id/oldButton"
             android:layout_below="@+id/menu"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="false"
+            android:layout_gravity="center"
             android:layout_marginTop="37dp"
             android:text="Button" />
 
         <Button
-            android:id="@+id/aproposButton"
-            android:layout_width="wrap_content"
+            android:id="@+id/conButton"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
+
             android:layout_alignLeft="@+id/oldButton"
             android:layout_alignStart="@+id/oldButton"
             android:layout_below="@+id/oldButton"
-            android:layout_marginTop="29dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/aproposButton"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+
+            android:layout_alignLeft="@+id/conButton"
+            android:layout_alignStart="@+id/conButton"
+            android:layout_below="@+id/conButton"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
             android:text="Button" />
 
     </RelativeLayout>

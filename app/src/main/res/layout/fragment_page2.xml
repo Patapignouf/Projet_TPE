@@ -2,94 +2,31 @@
 
 <FrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/pageColor2">
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="match_parent">
 
-        <EditText
-            android:id="@+id/eurText"
+    </RelativeLayout>
 
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="clip_vertical|clip_horizontal"
-            android:ems="10"
-            android:gravity="bottom"
-            android:hint="Montant en euros"
-            android:inputType="number" />
-
-        <Button
-            android:id="@+id/convButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Conversion" />
-
-        <TextView
-            android:id="@+id/res1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:background="@color/white"
-            android:text="Résultat en dong"
-            android:textAlignment="center"
-            android:textSize="20sp" />
-
-        <EditText
-            android:id="@+id/eurText2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="clip_vertical|clip_horizontal"
-            android:layout_marginTop="75dp"
-            android:ems="10"
-            android:gravity="bottom"
-            android:hint="Montant en dong"
-            android:inputType="number" />
-
-        <Button
-            android:id="@+id/convButton2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Conversion" />
-
-        <TextView
-            android:id="@+id/res2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:background="@color/white"
-            android:text="Résultat en euros"
-            android:textAlignment="center"
-            android:textSize="20sp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="50dp"
-            android:orientation="horizontal">
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
 
-            <TextView
-                android:id="@+id/Valtext"
-                android:layout_width="136dp"
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Valeur d'un dong en euros :"
-                android:textAlignment="textEnd"
-                android:textSize="24sp" />
-
-            <EditText
-                android:id="@+id/val"
-                android:layout_width="120dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:layout_weight="1"
-                android:ems="10"
-                android:inputType="number" />
+                app:srcCompat="@drawable/d03" />
         </LinearLayout>
-
-    </LinearLayout>
-
+    </ScrollView>
 </FrameLayout>

@@ -28,7 +28,9 @@
         <activity
             android:name=".tabs.introductionActivity"
             android:label="@string/title_activity_introduction"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".tabs.conclusionActivity" />
+        <activity android:name=".tabs.creditActivity"></activity>
     </application>
 
 </manifest>

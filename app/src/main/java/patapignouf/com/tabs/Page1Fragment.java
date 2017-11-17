@@ -18,6 +18,7 @@ public class Page1Fragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_page1, container, false);
 
+        /*
         final EditText prix;
         prix = (EditText) rootView.findViewById(R.id.prixArt);
 
@@ -66,7 +67,8 @@ public class Page1Fragment extends Fragment {
                 res04.setText("0");
             }
         });
-
+        */
         return rootView;
+
     }
 }

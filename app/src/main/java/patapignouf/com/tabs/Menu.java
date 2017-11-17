@@ -19,6 +19,8 @@ public class Menu extends AppCompatActivity {
         String intro = getResources().getString(R.string.menuButtonIntro);
         String old = getResources().getString(R.string.menuButtonOld);
         String apropos = getResources().getString(R.string.menuButtonCredit);
+        String conclusion = getResources().getString(R.string.menuButtonConclusion);
+
 
         final TextView menuTV;
         menuTV = (TextView) findViewById(R.id.menu);
@@ -27,12 +29,13 @@ public class Menu extends AppCompatActivity {
         Button introButton;
         introButton = (Button) findViewById(R.id.introButton);
         introButton.setText(intro);
+        //introButton.layout
         introButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
              //Actions du bouton
-                Intent introAct = new Intent(getBaseContext(), introductionActivity.class);
-                getBaseContext().startActivity(introAct);
+                Intent intent = new Intent(Menu.this, introductionActivity.class);
+                startActivity(intent);
 
             }
         });
@@ -44,8 +47,20 @@ public class Menu extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //Actions du bouton
-                Intent oldAct = new Intent(getBaseContext(), MainActivity.class);
-                getBaseContext().startActivity(oldAct);
+                Intent intent = new Intent(Menu.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button conButton;
+        conButton = (Button) findViewById(R.id.conButton);
+        conButton.setText(conclusion);
+        conButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //Actions du bouton
+                Intent intent = new Intent(Menu.this, conclusionActivity.class);
+                startActivity(intent);
             }
         });
 
@@ -57,6 +72,8 @@ public class Menu extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //Actions du bouton
+                Intent intent = new Intent(Menu.this, creditActivity.class);
+                startActivity(intent);
             }
         });
 
