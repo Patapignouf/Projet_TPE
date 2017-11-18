@@ -9,7 +9,8 @@
     <RelativeLayout
         android:id="@+id/RelativeLayout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@drawable/background">
 
         <TextView
             android:id="@+id/menu"
@@ -18,7 +19,8 @@
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="90dp"
-            android:text="TextView" />
+            android:text="TextView"
+            android:textSize="50sp" />
 
         <Button
             android:id="@+id/oldButton"
@@ -31,6 +33,7 @@
             android:layout_centerVertical="false"
             android:layout_gravity="center"
             android:layout_marginTop="111dp"
+            android:background="@android:color/background_light"
             android:text="Button" />
 
         <Button
@@ -45,6 +48,7 @@
             android:layout_centerVertical="false"
             android:layout_gravity="center"
             android:layout_marginTop="37dp"
+            android:background="@android:color/background_light"
             android:text="Button" />
 
         <Button
@@ -57,6 +61,7 @@
             android:layout_below="@+id/oldButton"
             android:layout_gravity="center"
             android:layout_marginTop="30dp"
+            android:background="@android:color/background_light"
             android:text="Button" />
 
         <Button
@@ -69,6 +74,7 @@
             android:layout_below="@+id/conButton"
             android:layout_gravity="center"
             android:layout_marginTop="32dp"
+            android:background="@android:color/background_light"
             android:text="Button" />
 
     </RelativeLayout>

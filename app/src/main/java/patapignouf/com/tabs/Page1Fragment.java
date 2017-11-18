@@ -1,6 +1,7 @@
 package patapignouf.com.tabs;
 
 import android.app.Fragment;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -16,31 +17,22 @@ public class Page1Fragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_page1, container, false);
+        final View rootView = inflater.inflate(R.layout.fragment_page1, container, false);
 
+        String retour = getResources().getString(R.string.retour_button);
+
+        Button returnButton;
+        returnButton = (Button) rootView.findViewById(R.id.backbutton);
+        returnButton.setText(retour);
+        returnButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //Actions du bouton
+                Intent intent = new Intent( getActivity(), Menu.class);
+                startActivity(intent);
+            }
+        });
         /*
-        final EditText prix;
-        prix = (EditText) rootView.findViewById(R.id.prixArt);
-
-        final EditText red;
-        red = (EditText) rootView.findViewById(R.id.redArt);
-
-
-        final TextView res01;
-        res01 = (TextView) rootView.findViewById(R.id.res01);
-
-        final TextView res02;
-        res02 = (TextView) rootView.findViewById(R.id.res02);
-
-        final TextView res03;
-        res03 = (TextView) rootView.findViewById(R.id.res03);
-
-
-        final TextView res04;
-        res04 = (TextView) rootView.findViewById(R.id.res04);
-
-
-
 
         Button calcbut;
         calcbut = (Button) rootView.findViewById(R.id.calcbutton);
