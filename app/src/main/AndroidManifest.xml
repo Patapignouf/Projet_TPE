@@ -30,7 +30,12 @@
             android:label="@string/title_activity_introduction"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity android:name=".tabs.conclusionActivity" />
-        <activity android:name=".tabs.creditActivity"></activity>
+        <activity android:name=".tabs.creditActivity" />
+        <activity android:name=".tabs.dev1Activity" />
+        <activity android:name=".tabs.dev2Activity" />
+        <activity android:name=".tabs.dev3Activity" />
+        <activity android:name=".tabs.exp1Activity" />
+        <activity android:name=".tabs.exp2Activity"></activity>
     </application>
 
 </manifest>

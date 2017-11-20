@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import patapignouf.com.R;
@@ -24,6 +25,7 @@ public class Page1Fragment extends Fragment {
         Button returnButton;
         returnButton = (Button) rootView.findViewById(R.id.backbutton);
         returnButton.setText(retour);
+        returnButton.setVisibility(rootView.INVISIBLE);
         returnButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -32,34 +34,18 @@ public class Page1Fragment extends Fragment {
                 startActivity(intent);
             }
         });
-        /*
 
-        Button calcbut;
-        calcbut = (Button) rootView.findViewById(R.id.calcbutton);
-        calcbut.setOnClickListener(new View.OnClickListener() {
+        ImageButton imageButton;
+        imageButton = (ImageButton) rootView.findViewById(R.id.imageButton2);
+        imageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                res02.setText(String.valueOf(Float.valueOf(String.valueOf(prix.getText()))*(1-Float.valueOf(String.valueOf(red.getText()))/100)));
-                res01.setText(String.valueOf(Float.valueOf(String.valueOf(prix.getText()))-(Float.valueOf(String.valueOf(res02.getText())))));
-                res03.setText(String.valueOf(Float.valueOf(String.valueOf(res03.getText()))+(Float.valueOf(String.valueOf(res01.getText())))));
-                res04.setText(String.valueOf(Float.valueOf(String.valueOf(res04.getText()))+(Float.valueOf(String.valueOf(res02.getText())))));
+                //Actions du bouton
+                Intent intent = new Intent( getActivity(), dev1Activity.class);
+                startActivity(intent);
             }
         });
 
-        Button delete;
-        delete = (Button) rootView.findViewById(R.id.delete);
-        delete.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                prix.setText("");
-                red.setText("");
-                res01.setText("0");
-                res02.setText("0");
-                res03.setText("0");
-                res04.setText("0");
-            }
-        });
-        */
         return rootView;
 
     }
