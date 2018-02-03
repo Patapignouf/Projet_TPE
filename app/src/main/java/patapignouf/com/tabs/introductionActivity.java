@@ -18,12 +18,6 @@ public class introductionActivity extends AppCompatActivity {
         setContentView(R.layout.activity_introduction);
 
 
-        String credit = getResources().getString(R.string.introtext);
-
-
-        final TextView menuTV;
-        menuTV = (TextView) findViewById(R.id.textViewIntro);
-        menuTV.setText(credit);
 
     }
 

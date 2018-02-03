@@ -13,12 +13,6 @@ public class creditActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_credit);
 
-        String credit = getResources().getString(R.string.apropostext);
-
-
-        final TextView menuTV;
-        menuTV = (TextView) findViewById(R.id.textViewCredit);
-        menuTV.setText(credit);
 
     }
 }

@@ -1,60 +1,147 @@
 <resources>
-    <string name="app_name">Projet_TPE</string>
-    <string name="menu">Menu</string>
-    <string name="menuButtonIntro">Introduction</string>
-    <string name="menuButtonOld">Vieillissement</string>
-    <string name="menuButtonCredit">A propos</string>
-    <string name="menuButtonConclusion">En bref</string>
-    <string name="credit">Projet_TPE</string>
-    <string name="title_activity_introduction">introductionActivity</string>
-    <string name="retour_button">Retour</string>
-    <string name="titre_onglet_1">age 1</string>
-    <string name="titre_onglet_2">age 2</string>
-    <string name="titre_onglet_3">age 3</string>
-    <string name="xp1buttonS">experience 1</string>
-    <string name="xp2buttonS">experience 2</string>
+    <string name="app_name">Projet_TPE\n </string>
+    <string name="menu">Est-il possible de ralentir le vieillissement de notre peau ?\n </string>
+    <string name="menuButtonIntro">Pour commencer\n </string>
+    <string name="menuButtonOld">Vieillissement\n </string>
+    <string name="menuButtonCredit">A propos\n </string>
+    <string name="menuButtonConclusion">Pour finir\n </string>
+    <string name="credit">Projet_TPE\n </string>
+    <string name="title_activity_introduction">introductionActivity\n </string>
+    <string name="retour_button">Retour\n </string>
+    <string name="titre_onglet_1">20 ans\n </string>
+    <string name="titre_onglet_2">50 ans\n </string>
+    <string name="titre_onglet_3">50 ans\n </string>
+    <string name="xp1buttonS">experience 1\n </string>
+    <string name="xp2buttonS">experience 2\n </string>
 
 
-    <string name="textdev1_1">text1</string>
-    <string name="textdev1_2">text2</string>
-    <string name="textdev2_1">text1</string>
-    <string name="textdev2_2">text2</string>
-    <string name="textdev2_3">text3</string>
-    <string name="textdev2_4">text4</string>
-    <string name="textdev2_5">text5</string>
-    <string name="textdev2_6">text6</string>
-    <string name="textdev2_7">text7</string>
-    <string name="textdev3_1">text1</string>
-    <string name="textdev3_2">text2</string>
-    <string name="textdev3_3">text3</string>
-    <string name="textdev3_4">text4</string>
+    <string name="textdev1_1">La peau est composée en moyenne de : 70% d’eau, 27.5% de protéines, 2% de matière grasse, 0.5% de sel minéraux et d’oligo-éléments (éléments minéraux indispensables) 
+Elle est constituée de trois couches : sa couche superficielle : l’épiderme, sa couche intermédiaire : le derme et sa couche profonde : l’hypoderme. \n </string>
+    <string name="textdev1_2"> 
+La peau est considérée comme un organe car elle remplit plusieurs fonctions importantes. Elle joue différents rôles fondamentaux comme la protection vis-à-vis de l\'extérieur (chocs, pollution, microbes, ultraviolets…), la régulation thermique, la synthèse hormonale (vitamine D, et différentes hormones). D’autres part la peau a une fonction immunitaire, elle protège notre organisme, elle a aussi une fonction psychosociale, et elle joue sur notre apparence vis à vis des autres. \n
+Comme toute autre partie du corps, elle est composée de cellules. Ces cellules se renouvellent constamment par cycle de 28 jours. Au fur et à mesure du vieillissement de la peau, la durée du cycle se rallonge, passant à 30 jours ou plus. De ce fait, de vieilles cellules s’accumulent, donnant un aspect de peau sèche, qui prononce les rides. \n\n
+ 
+De plus, des découvertes ont montré que le rétrécissement des télomères est associés au vieillissement cellulaire. Ces structures sont de courtes séquences d’ADN placées à l’extrémité des chromosomes dans les cellules eucaryotes pour empêcher les chromosomes de se dégrader. De plus les télomères ont besoin d’une enzyme : la télomérase (elle permet l’élongation et la conservation de la taille des télomères). Mais lorsqu’elle n’est pas présente les télomères deviennent plus courts ce qui conduit à la mort de la cellule et à l\'arrêt des divisions cellulaires provoquant ainsi le vieillissement. 
+\n </string>
+    <string name="textdev1_3">D’autres découvertes ont montré aussi que les mitochondries favoriseraient le vieillissement cellulaire, ces structures sont les générateurs d\'énergie des cellules eucaryotes présentes dans le cytoplasme, elles consistent à utiliser le glucose et l\'oxygène pour fabriquer de l\'adénosine triphosphate (ATP), qui est l\'énergie nécessaire au fonctionnement de la cellule. Cependant, au cours de ce processus, elles libèrent des espèces chimiques oxygénées comme des radicaux libres (molécules instables possédant un ou plusieurs électrons non appariés sur leur couche externe). Lorsque les radicaux libres sont produits en faible quantité, ils sont gérés par notre organisme qui dispose de moyens pour s\'en protéger : les antioxydants. Ils neutralisent les molécules nocives dans une réaction d’oxydation, les empêchant ainsi de détériorer la cellule. ll y a équilibre entre la production de radicaux libres et celle des antioxydants.\n </string>
+    <string name="textdev1_4">En revanche, lorsque les radicaux libres sont produits en trop grande quantité, notre organisme n’arrive plus à les combattre.\n
+Par ailleurs, cet organite possède son propre ADN ainsi au fur et à mesure des divisions successives, leur ADN "s\'use". Cet ADN est 10 fois plus sensible que l\'ADN cellulaire à l\'action des radicaux libres. Ceux ci engendrent des mutations, entraînant un dysfonctionnement de la mitochondrie pouvant aller jusqu\'à l\'auto-destruction et donc ayant un impact sur le vieillissement.\n </string>
 
-    <string name="textexp1_1">text1</string>
-    <string name="textexp1_2">text2</string>
-    <string name="textexp1_3">text3</string>
-    <string name="textexp1_4">text4</string>
-    <string name="textexp1_5">text5</string>
-    <string name="textexp1_6">text6</string>
-    <string name="textexp1_7">text7</string>
-    <string name="textexp1_8">text8</string>
-    <string name="textexp1_9">text9</string>
-    <string name="textexp1_10">text10</string>
+    <string name="textdev2_1">
+Plusieurs facteurs peuvent accélérer le raccourcissement des télomères et donc accélérer le vieillissement de la peau. Ce sont les agents mutagènes. Une pharmacienne, de la pharmacie du Mortard à Lure, passionnée de dermato cosmétique a bien voulu répondre à plusieurs de nos questions comme : “Qu’est ce qui accélère le vieillissement de la peau ?” \n
+Elle répondit : <i>“Alors ce qui accélère c’est déjà les conditions climatiques. Par exemple aujourd’hui il fait pas beau, il neige, il fait froid donc la peau est agressée. Souvent ça se voit, ça tiraille et ça rougit. Il y a aussi les habitudes de chacun, les habitudes alimentaires quand on mange pas équilibré, quand on fume, quand on boit de l’alcool ça se ressent aussi sur la qualité de la peau qui vieillit du coup prématurément.”</i>\n\n
+
+Nous allons donc vous présenter quelques facteurs qui peuvent accélérer le vieillissement de la peau:\n\n
+
+-Tout d’abord, grâce à une expérience montrant l’impact des rayons UV , on sait que c’est un des principaux facteurs du vieillissement de la peau. Cet agent mutagène attaque les cellules mélanocytes (en brisant leur chaîne d’ADN) qui se trouvent au niveau de la couche basale de l’épiderme. Ces cellules synthétisent la mélanine responsable de la pigmentation de la peau et ayant pour but de protéger la peau. Ainsi elles produisent moins de mélanine, de protéine (collagène et élastine) ce qui accentue le processus du vieillissement.\n 
+Au niveau physique, les UV (rayons ultraviolets) sont composées de rayonnements électromagnétiques. Ils ont une longueur d’onde plus courte que celle du visible et donc non perceptible à l’oeil nu. Le spectre des UV est divisé en 3 parties UVA, UVC, UVB. Les UVC sont les plus dangereux mais ils n\'atteignent pas la surface de la terre et sont absorbés par la couche d’ozone. Les UVA sont moins intenses que les UVB, mais ils sont plus présents et peuvent atteindre les couches plus profondes de la peau comme le tissu conjonctif et les vaisseaux sanguins, pouvant entraîner donc un vieillissement prématuré.  \n </string>
+    <string name="textdev2_2">Le docteur Bahman Guyuron, chirurgien esthétique, a mené une expérience sur 79 pairs de jumeaux pour tester les causes du tabac sur la peau.L’un des jumeaux fume et l’autre non. Puis un Jury de chirurgiens esthétiques a analysé l’état du vieillissement chez chaque jumeau sans savoir lequel fumait. Il a constaté que les jumeaux fumeurs avaient vieilli prématurément et avaient des rides plus profondes que les jumeaux non fumeur. \n
+On constate donc que le tabac est une cause d’un vieillissement accéléré et entraîne le vieillissement cutané (perte d\'élasticité de la peau, changement de texture)
+\n </string>
+    <string name="textdev2_3">A l’image du tabac, la pollution accélère le vieillissement cutané de la peau et a un impact sur sa barrière de protection. L’ozone (formé de 3 molécules d’oxygène) et les particules fines présentes dans la pollution entraînent une chute des antioxydants naturels de l\'épiderme. Ce qui est une autre cause de l’accélération du vieillissement de la peau. 
+\n </string>
+    <string name="textdev2_4">Lorsque nous sommes stressés, le sang reflue vers les organes vitaux pour leur apporter davantage d’énergie et d’oxygène, et ainsi donner à l’organisme les moyens de réagir rapidement à la situation à laquelle il doit faire face. Puisque la peau n’est pas un organe vital, bien qu’elle soit importante, elle se retrouve moins bien irriguée et « nourrie » par les cellules sanguines. Elle devient alors terne et se régénère moins facilement.  \n
+Aussi lorsqu’un événement stressant survient, le corps réagit immédiatement. Les glandes surrénales se mettent à produire du cortisol, une hormone qui entraîne la libération de sucres destinés à répondre aux soudains besoins de l’organisme. Mais la production de cortisol sur le long terme provoque aussi des inflammations cutanées qui se manifestent par l’apparition de boutons, de ridules, de rides, et par une peau plus fine et plus terne. Le cortisol provoque aussi la diminution de la quantité de collagène produite par les fibroblastes. La peau perd alors en souplesse et les rides s’installent plus rapidement. Enfin, il faut savoir que le cortisol empêche l’amorçage de la production de mélatonine, l’hormone du sommeil, ce qui réduit considérablement la capacité de la peau à se régénérer.\n
+D’autres part les radicaux libres sont des molécules instables en excès qui vont s\'équilibrer en obtenant un électron d\'une molécule voisine, c\'est-à-dire en l\'oxydant. Celle-ci devient instable à son tour, se transformant en radical libre.\n
+Cette réaction en continue modifie la structure des molécules et les détériore. C’est ce qui est appelé le stress oxydatif. Ce phénomène accélère le vieillissement de nos cellules qui ne peuvent plus se renouveler aussi vite qu’il le faudrait.\n
+Enfin les radicaux libres agissent également sur la peau, l\'oxydation du collagène serait responsable du relâchement de la peau et des rides.
+\n </string>
+    <string name="textdev2_5">Si notre alimentation n’est pas saine, manque de fruits rouges ou de légumes, notre organisme n’a pas son apport d’anti-oxydant nécessaire pour combattre les radicaux libres qui détériorent les cellules de la peau. Une mauvaise alimentation entraîne donc le vieillissement de la peau. D’autre part une suralimentation frappe les mitochondries qui produisent l’énergie de nos cellules. Leur production en du carburant cellulaire va perdre en efficacité et elles vont produire des radicaux libres qui sont au contraire toxiques pour la cellule et ainsi accélérer le vieillissement de la peau.
+\n </string>
+    <string name="textdev2_6">L’alcool aussi est néfaste pour la peau. Il a un effet de déshydratation général sur le corps et provoque des anomalies au niveau de la circulation sanguine. Ce qui a des répercussions sur la peau : elle devient sèche, terne et ridée, ridules de plus en plus marqués.\n </string>
+    <string name="textdev2_7"></string>
+    
+    <string name="textdev3_1">Il n’y a pas vraiment de recette miracle pour éviter le vieillissement de la peau. Néanmoins, en adoptant une hygiène de vie saine, les télomères pourraient s’allonger ce qui ralentirait le vieillissement cellulaire. Ainsi dans  <i>The Lancet Oncology </i>  (revue scientifique médicale britannique), une étude souligne que sur le long terme un mode de vie sain se traduit par un allongement des télomères.\n 
+    Cependant, il est trop tôt pour en tirer des conclusions, on ne connait pas encore assez bien les effets d\'un allongement des télomères chez l\'Homme malgré le fait qu’on a toutes les raisons de penser que c’est bénéfique. \n\n
 
 
-    <string name="textexp2_1">text1</string>
-    <string name="textexp2_2">text2</string>
-    <string name="textexp2_3">text3</string>
-    <string name="textexp2_4">text4</string>
-    <string name="textexp2_5">text5</string>
+<b>Les antioxydants </b> sont des molécules permettant de lutter contre le vieillissement prématuré de nos cellules en neutralisant les radicaux libres. \n
+Nous les trouvons dans notre organisme, dans certains soins cosmétiques, dans de nombreux aliments naturels et végétaux. En effet comme le dit la pharmacienne (du Mortard de Lure) <i>“nous en trouvons dans tout ce qui est de coloris rouge. Dans les myrtilles, la grenade, la cranberry. Dans les baies rouges c’est la qu’on trouve le plus d\'antioxydants.”</i> \n </string>
+    <string name="textdev3_2">Aussi, la lumière du soleil est le principal facteur du vieillissement de la peau. Il est alors nécessaire de se protéger du soleil et d\'appliquer une protection solaire adaptée qui protège à la fois des UVA et UVB.\n\n
 
-    <string name="apropostext">    Vous savez, moi je ne crois pas qu’il y ait de bonne ou de mauvaise situation. Moi, si je devais résumer ma vie aujourd’hui avec vous, je dirais que c’est d’abord des rencontres. Des gens qui m’ont tendu la main, peut-être à un moment où je ne pouvais pas, où j’étais seul chez moi. Et c’est assez curieux de se dire que les hasards, les rencontres forgent une destinée... Parce que quand on a le goût de la chose, quand on a le goût de la chose bien faite, le beau geste, parfois on ne trouve pas l’interlocuteur en face je dirais, le miroir qui vous aide à avancer. Alors ça n’est pas mon cas, comme je disais là, puisque moi au contraire, j’ai pu : et je dis merci à la vie, je lui dis merci, je chante la vie, je danse la vie... je ne suis qu’amour ! Et finalement, quand beaucoup de gens aujourd’hui me disent « Mais comment fais-tu pour avoir cette humanité ? », et bien je leur réponds très simplement, je leur dis que c’est ce goût de l’amour ce goût donc qui m’a poussé aujourd’hui à entreprendre une construction mécanique, mais demain qui sait ? Peut-être simplement à me mettre au service de la communauté, à faire le don, le don de soi...
-    </string>
-    <string name="conctext">    Vous savez, moi je ne crois pas qu’il y ait de bonne ou de mauvaise situation. \n\n
 
-        Moi, si je devais résumer ma vie aujourd’hui avec vous, je dirais que c’est d’abord des rencontres. Des gens qui m’ont tendu la main, peut-être à un moment où je ne pouvais pas, où j’étais seul chez moi. Et c’est assez curieux de se dire que les hasards, les rencontres forgent une destinée... Parce que quand on a le goût de la chose, quand on a le goût de la chose bien faite, le beau geste, parfois on ne trouve pas l’interlocuteur en face je dirais, le miroir qui vous aide à avancer. Alors ça n’est pas mon cas, comme je disais là, puisque moi au contraire, j’ai pu : et je dis merci à la vie, je lui dis merci, je chante la vie, je danse la vie... je ne suis qu’amour ! Et finalement, quand beaucoup de gens aujourd’hui me disent « Mais comment fais-tu pour avoir cette humanité ? », et bien je leur réponds très simplement, je leur dis que c’est ce goût de l’amour ce goût donc qui m’a poussé aujourd’hui à entreprendre une construction mécanique, mais demain qui sait ? Peut-être simplement à me mettre au service de la communauté, à faire le don, le don de soi...
-    </string>
-    <string name="introtext">    Vous savez, moi je ne crois pas qu’il y ait de bonne ou de mauvaise situation. Moi, si je devais résumer ma vie aujourd’hui avec vous, je dirais que c’est d’abord des rencontres. Des gens qui m’ont tendu la main, peut-être à un moment où je ne pouvais pas, où j’étais seul chez moi. Et c’est assez curieux de se dire que les hasards, les rencontres forgent une destinée... Parce que quand on a le goût de la chose, quand on a le goût de la chose bien faite, le beau geste, parfois on ne trouve pas l’interlocuteur en face je dirais, le miroir qui vous aide à avancer. Alors ça n’est pas mon cas, comme je disais là, puisque moi au contraire, j’ai pu : et je dis merci à la vie, je lui dis merci, je chante la vie, je danse la vie... je ne suis qu’amour ! Et finalement, quand beaucoup de gens aujourd’hui me disent « Mais comment fais-tu pour avoir cette humanité ? », et bien je leur réponds très simplement, je leur dis que c’est ce goût de l’amour ce goût donc qui m’a poussé aujourd’hui à entreprendre une construction mécanique, mais demain qui sait ? Peut-être simplement à me mettre au service de la communauté, à faire le don, le don de soi...
-    </string>
+Par ailleurs des études ont aussi montré qu’une activité physique et sportive quotidiennement permettrait de ralentir le vieillissement cellulaire. On sait que le sport à des effets positifs sur notre corps, il nous maintient en forme physiquement, psychologiquement et prévient aussi certaine maladie. Ainsi dans la revue <i>Preventive Medecine</i>, une étude américaine indique que le sport aurait aussi des bienfaits pour ralentir la diminution des télomères et donc de vieillir moins rapidement. Larry A.Tucker, dirigeant de l’étude a étudié quatre catégories de personnes (grands sportifs, sportifs modérés, sportifs occasionnels et non sportifs) il en résulte que les adultes très sportifs sont biologiquement 9 ans plus jeunes que les non sportifs. Et pour cela les hommes devraient faire 40 minutes de jogging par jour et les femmes 30 minutes.
+\n </string>
+    <string name="textdev3_3">La peau subit également de nombreuses agressions quotidiennement, une petite exposition aux rayons du soleil ou à la pollution urbaine peut faire chuter de 30 à 50% la concentration de vitamine C dans la peau. La vitamine C est une molécule antioxydante la plus abondante dans notre peau. Elle assure une protection des cellules contre les radicaux libres. 
+Celle-ci est importante pour reconstituer le collagène et aider à la cicatrisation. L’organisme humain ne sait pas synthétiser la vitamine C, il est donc nécessaire d’en puiser chaque jour dans les aliments (poivron rouge, orange, framboise…). \n\n
+
+
+De plus, la vitamine E, présente naturellement à la surface de la peau est la première défense contre les radicaux libres. Elle aide à réduire les rides, et à améliorer la texture de la peau. En effet, la pharmacienne nous a dit : 
+<i>“ La vitamine E est un très bon anti-oxydant. Et la vitamine A c’est plutôt quelque chose qui est vraiment anti-ride. En faite si on agit sur les mitochondries on peut prévenir le vieillissement. Grâce à la vitamine A et la vitamine E on corrige mais on ne prévient pas le vieillissement.” </i> \n\n            
+
+
+
+D’autre part, au niveau des soins cosmétiques vaut mieux appliquer une crème afin de retarder au maximum le processus du vieillissement cutané et pour protéger la peau.\n
+Certaines crèmes ont des vertus anti-rides cependant elles permettent d’estomper les rides mais pas de les supprimer. \n\n
+
+Pour en être sûr de ces efficacités nous avons demandé à la pharmacienne si la crème a un réel effet sur notre peau. Elle nous répondit : 
+<i>“Oui, la crème a un réel effet, c’est vrai qu’elle peut corriger certaines ridules. Mais si vous avez une qualité de vie pas au top. Si on préfère manger kebab, pizza, et fumer sa cigarette forcément la peau va vraiment vieillir même si on utilise des crèmes. Et il faut évidemment s’hydrater. Donc hydrater sa peau mais hydrater aussi son corps.” </i> \n
+Ainsi une crème hydratant est bénéfique pour protéger notre peau contre les facteurs extérieurs comme le froid qui l’assèche.\n\n
+
+Nous avons aussi souhaité savoir si les crèmes anti-rides sont hydratantes.\n
+La pharmacienne rétorqua : <i>“Toutes les crèmes sont d’abord hydratantes. D’ailleurs si on utilise pas une crème qui hydrate suffisamment la peau, les composants anti-vieillissement ne pourront pas agir. C’est pour cela que parfois on conseille de mettre un sérome avant sa crème parce qu’il va vraiment véhiculer les composant au centre de la peau. ”</i> \n
+Les crèmes anti-rides hydratent l’épiderme et protègent un peu des rayons UV. Elles contiennent des actifs exfoliants qui activent la microcirculation (système de circulation sanguine où s’effectue les échanges gazeux et liquidiens) et boostent le renouvellement des cellules et des antiradicalaires (substances capables de piéger les radicaux libres).\n\n
+
+
+Nous avons demandé à la pharmacienne : quels sont les différents composants des crèmes ? \n
+Elle déclara : <i>“La crème anti-rides classique anti-vieillissement c’est celle à base d’acides hyaluroniques. En faite l’acide hyaluronique c’est quelque chose qui va apporter une grosse quantité d’eau à la surface de la peau. Donc du coup la peau va être tout de suite hydratée et tout de suite rebondi. Le problème de l’acide hyaluronique c’est qu’une fois qu’on l’a appliqué elle agit tout de suite mais ça ne reste pas. Il faut en appliquer tous les jours. Après il existe des actifs plus naturels ou chimiques ça dépend, mais nous on travaille beaucoup plus avec le naturel, qui permettent à la peau de se défendre contre les attaques extérieurs. Donc des fois avec des filtres UV pour protéger du soleil et avec quelque chose qui relance la production de collagène dans la peau. Ca c’est quand même plus efficace  sur du long terme.”</i> \n
+En effet la peau contient 50% d’acide hyaluronique, c’est une molécule naturelle qui permet de repulper et donc de réduire les rides. Puis à partir de quarante ans environ ces molécules diminuent, il est donc conseillé d’appliquer une crème qui en contient.\n\n
+
+Mais avant 30 ans, une bonne hygiène et une hydratation sont suffisantes pour avoir une belle peau. Apres 30 ans, le collagène commence à moins se renouveler et des rides apparaissent, il faudra donc une crème au collagène ou à l\'acide hyaluronique. Une crème à l\'acide hyaluronique et aux antioxydants est important pour hydrater, repulper, régénérer les cellules de la peau. \n </string>
+    <string name="textdev3_4">Pour l’avenir, pleins de pistes sont explorées afin de ralentir le vieillissement.\n
+Le professeur David Sinclair, de l\'école médicale de Harvard (Boston, États-Unis), et de son équipe ont observé que les cellules des jeunes souris contiennent plus de NAD que celles des souris âgées. Le NAD plus précisément Nicotinamide adénine nucléotide est présente dans toutes les cellules vivantes permettant la formation de l’ATP. L’ATP est le carburant de toutes les cellules produite en majorité dans les mitochondries. Ils ont réussi à rajeunir les muscles d’une souris en fin de vie en en leur injectant cette molécule : NAD.\n 
+Ainsi, nos cellules perdent progressivement leurs capacitées à réparer les erreurs de mutation et de dégradation de notre ADN lors de leurs divisions.Ils ont donc remarqué que lorsqu’il y avait beaucoup de NAD présent dans la cellule, cela empêchait ces dégâts sur l’ADN. En revanche, quand il y a un faible niveau de NAD les cellules perdent leur capacité à créer suffisamment d’énergie et le processus de vieillissement s’accélère.\n\n
+
+D\'autres études ont montré que les cellules sénescentes sont liées au vieillissement, alors des chercheurs ont supprimé ces cellules des souris, elles pouvaient donc vivre 20% de plus en moyenne. \n\n
+
+Enfin, à l\'université de Californie, à San Fransisco, des scientifiques ont observé que les souris produisant beaucoup de klotho (gène responsable de la synthèse de la protéine klotho) dans le sang et le cerveau voient leur espérance de vie augmentée de plusieurs mois. Comme cette protéine diminue avec l\'âge ils ont donc cherché à augmenter sa concentration, ils découvrent que la longévité des souris progresse. Chez l’homme, les mêmes chercheurs ont découvert que des quantités élevées de klotho dans le sang étaient liées à de meilleures aptitudes cognitives.\n\n
+
+Ces résultats font évidemment naître l\'espoir d\'une future thérapie qui permettrait à l\'être humain de préserver son corps des ravages mais il reste encore pleins d’étapes à franchire comme essayer sur les hommes.\n
+Selon tous les scientifiques, aujourd’hui le seul moyen efficace et reconnu pour augmenter l’espérance de vie chez l’être humain est d’avoir une bonne hygiène de vie et de faire régulièrement du sport.
+
+\n </string>
+
+    <string name="textexp1_1">Voici un document représentant deux jumelles, une qui n’a pas subi l’agression aux UV et l’autre qui a toujours travaillé dehors. Nous constatons que celle exposée aux UV possède des rides plus nombreuses et plus profondes que sa soeur.\n\n
+    On en déduit que les UV ont un impact sur le vieillissement de la peau ainsi nous allons effectuer une expérience sur des levures afin de le démontrer.\n </string>
+    <string name="textexp1_2">Pour commencer, cinq boîtes de pétri ont été préparées contenant de la gélose nutritive pour que les levures puissent se développer.\n
+Nous avons mis notre paillasse en conditions stériles (bec électrique chaud puis nettoyage de la paillasse à l’eau de javel, et de nos mains à l’alcool)
+\n </string>
+    <string name="textexp1_3">Dans une deuxième étape nous avons mis nos levures dans des boîtes de pétri à l’aide d’un ensememceur préalablement chauffé avant chaque boîte pour le stériliser.
+\n </string>
+    <string name="textexp1_4">Nous avons ensuite placé une boîte de pétri dans une boîte à UV pendant 30 sec, une 2eme pendant 60 sec, une 3eme pendant 90 sec puis une dernière à 120 sec. 
+\n </string>
+    <string name="textexp1_5">Nous les avons laissé se développer une semaine dans une étuve à 38°. \n </string>
+    <string name="textexp1_6">Nous observons que plus les levures ont été exposées longtemps aux UV plus leurs nombres diminuent par rapport à la boite témoin. En effet, pour une durée de 120 sec il y a une baisse importante des levures.\n\n
+
+On peut en conclure que les UV sont bien un facteur accélérant le vieillissement de la peau et que plus l’exposition solaire est prolongée plus cela entraînera des répercussions sur la peau, elle devient moins élastique et les cellules se renouvellent moins.\n </string>
+    <string name="textexp1_7">\n </string>
+    <string name="textexp1_8">text8\n </string>
+    <string name="textexp1_9">text9\n </string>
+    <string name="textexp1_10">text10\n </string>
+
+
+    <string name="textexp2_1">Comme nous pouvons voir sur ce schéma, les antioxydants permettraient de protéger la cellule des radicaux libres. Nous voulons alors tester l’effet des antioxydants sur les cellules dans cette expérience.   \n </string>
+    <string name="textexp2_2">Tout d’abord, comme lors de la première expérience, nous avons mis notre paillasse en condition stérile grâce à de la javel. Nous avons aussi nettoyer nos mains et nos avant bras avec du savon puis de l’alcool. \n
+Ensuite, nous avons préparé une solution mère à base d’eau et d’huile contenant de la vitamine E. Nous avons donc mélangé 10 mL d’eau stérile à 5 mL d’huile. \n </string>
+    <string name="textexp2_3"> Nous avons ensuite réalisé 4 solutions filles par dilution et une solution témoin avec juste 4 mL d’eau stérile. Nous avons mis 1 mL de solution mère et 3 mL d’eau stérile dans la première solution fille, 2 mL de solution mère et 2 mL d’eau stérile dans la deuxième, 3 mL de solution mère et 1 mL d’eau stérile dans la troisième, et 4 mL de solution mère dans la dernière.\n </string>
+    <string name="textexp2_4">Nous avons par la suite incorporé environ la même dose de levure boulangère dans chaque solution fille ainsi que dans la témoin avant d’étaler chaque solution dans des boites à pétrie préalablement préparées avec de la gélose pour levure (avec nutriments). \n
+Pour finir nous avons laissé reposer les boites à pétrie une semaine dans une étuve à 38°C.\n </string>
+    <string name="textexp2_5">Après une semaine de repos nous n’avons constaté aucun changement entre les boites de test et la boite témoin. Les levures se sont développées de la même façon dans toutes les boites de pétries.\n
+Nous connaissons le problème de nos résultats. En faisant une expérience sur les levures nous avons testé l’antioxydant (ici la vitamine E) avec un système réplicatif. Alors que pour observer les effets bénéfiques que produit les antioxydants sur les cellules il faut les tester avec une expérience sur le système métabolique de la cellule, sur des souris par exemple. 
+\n </string>
+
+    <string name="apropostext"> Nous savons aussi que certains gènes nous mettent dans de meilleure disposition pour lutter contre le vieillissement. Rendez vous à l’oral pour plus d’explication.\n\n\n
+
+
+        Nous remercions nos deux professeurs qui ont encadré nos TPE pour leurs soutiens ainsi qu\'à l\'assistante de laboratoire pour nous avoir aidé à préparer les expériences et à Quentin NGUYEN (élève ingénieur dans le numérique) de nous avoir aidé à développer notre application.
+    \n </string>
+    <string name="conctext"> Nous avons donc posé l’ultime question à la pharmacienne: <b>Peut-on paraître jeune jusqu’à la mort ? </b> \n
+La réponse était quand même attendu: <i>“Alors on peut utiliser évidemment toutes sortes de crèmes, c’est vrai que la gamme est assez large, il y a du choix. Mais après le vieillissement ça reste quand même un processus naturel. A par les séances de chirurgies. C’est vrai qu’on peut ralentir le vieillissement mais pas l’arrêter complètement.”</i>\n\n
+
+Nous ne pouvons donc pas empêcher notre peau de vieillir mais nous pouvons en prendre soin pour l’épargner le plus possible aux causes de l’âge. Il faut nous hydrater avec de la crème mais aussi boire de l’eau et éviter le plus possible les agents mutagènes. Nous pouvons aussi faire du sport et avoir une hygiène de vie saine pour que notre peau se sente vivre le plus longtemps possible.  \n
+On peut en conclure que même si le vieillissement est un processus irréversible, il semblerait que le ralentir soit possible dans le futur car à ce jour nous ne possédons pas encore de cette capacité. Aujourd’hui la médecine ne peut pas stopper le processus naturel du vieillissement de la peau mais de nombreuses recherches sont en cours et se rapproche de plus en plus du mythe de la fontaine de Jouvence.  \n </string>
+    <string name="introtext"> Le vieillissement de la peau est un sujet sensible pour l’Homme. En effet, c’est en partie dû au passage du temps qui nous affecte tous, il marque notre corps, force nos traits, creuse des rides... C’est pour cela que nous avons décidé de nous concentrer sur le vieillissement de notre peau. Nous étudierons donc le fonctionnement de la peau puis nous nous tournerons vers les facteurs génétiques et environnementaux à l’origine du vieillissement. Enfin nous conclurons sur les protections pour essayer de le “ralentir”.
+    \n </string>
 
 
 

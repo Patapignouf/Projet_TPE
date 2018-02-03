@@ -14,11 +14,6 @@ public class conclusionActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_conclusion);
 
-        String credit = getResources().getString(R.string.conctext);
 
-
-        final TextView menuTV;
-        menuTV = (TextView) findViewById(R.id.textViewConc);
-        menuTV.setText(credit);
     }
 }

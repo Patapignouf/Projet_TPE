@@ -30,7 +30,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginTop="20dp"
-                    android:text="TextView" />
+                    android:text="@string/textdev3_1" />
 
                 <ImageView
                     android:id="@+id/imageView2"
@@ -39,7 +39,7 @@
                     android:adjustViewBounds="false"
                     android:cropToPadding="false"
                     android:scaleType="centerCrop"
-                    app:srcCompat="@drawable/evolve02" />
+                    app:srcCompat="@drawable/dev3p1" />
 
                 <TextView
                     android:id="@+id/textViewDev3_2"
@@ -51,7 +51,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginTop="20dp"
-                    android:text="TextView" />
+                    android:text="@string/textdev3_2" />
 
                 <ImageView
                     android:id="@+id/imageView5"
@@ -60,7 +60,7 @@
                     android:adjustViewBounds="false"
                     android:cropToPadding="false"
                     android:scaleType="centerCrop"
-                    app:srcCompat="@drawable/evolve02" />
+                    app:srcCompat="@drawable/dev3p2" />
 
                 <TextView
                     android:id="@+id/textViewDev3_3"
@@ -72,7 +72,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginTop="20dp"
-                    android:text="TextView" />
+                    android:text="@string/textdev3_3" />
 
                 <ImageView
                     android:id="@+id/imageView6"
@@ -80,8 +80,8 @@
                     android:layout_height="200dp"
                     android:adjustViewBounds="false"
                     android:cropToPadding="false"
-                    android:scaleType="centerCrop"
-                    app:srcCompat="@drawable/evolve02" />
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/dev3p3" />
 
                 <TextView
                     android:id="@+id/textViewDev3_4"
@@ -93,7 +93,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginTop="20dp"
-                    android:text="TextView" />
+                    android:text="@string/textdev3_4" />
 
             </LinearLayout>
         </ScrollView>

@@ -25,8 +25,8 @@
                     android:layout_height="200dp"
                     android:adjustViewBounds="false"
                     android:cropToPadding="false"
-                    android:scaleType="centerCrop"
-                    app:srcCompat="@drawable/evolve02" />
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/expe2p1" />
 
                 <TextView
                     android:id="@+id/textViewExp2_1"
@@ -38,7 +38,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginTop="20dp"
-                    android:text="TextView" />
+                    android:text="@string/textexp2_1" />
 
                 <ImageView
                     android:id="@+id/imageView16"
@@ -46,8 +46,8 @@
                     android:layout_height="200dp"
                     android:adjustViewBounds="false"
                     android:cropToPadding="false"
-                    android:scaleType="centerCrop"
-                    app:srcCompat="@drawable/evolve02" />
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/expe2p2" />
 
                 <TextView
                     android:id="@+id/textViewExp2_2"
@@ -59,7 +59,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginTop="20dp"
-                    android:text="TextView" />
+                    android:text="@string/textexp2_2" />
 
                 <ImageView
                     android:id="@+id/imageView17"
@@ -67,8 +67,8 @@
                     android:layout_height="200dp"
                     android:adjustViewBounds="false"
                     android:cropToPadding="false"
-                    android:scaleType="centerCrop"
-                    app:srcCompat="@drawable/evolve02" />
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/expe2p3" />
 
                 <TextView
                     android:id="@+id/textViewExp2_3"
@@ -80,7 +80,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginTop="20dp"
-                    android:text="TextView" />
+                    android:text="@string/textexp2_3" />
 
                 <ImageView
                     android:id="@+id/imageView18"
@@ -88,8 +88,8 @@
                     android:layout_height="200dp"
                     android:adjustViewBounds="false"
                     android:cropToPadding="false"
-                    android:scaleType="centerCrop"
-                    app:srcCompat="@drawable/evolve02" />
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/expe2p4" />
 
                 <TextView
                     android:id="@+id/textViewExp2_4"
@@ -101,7 +101,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginTop="20dp"
-                    android:text="TextView" />
+                    android:text="@string/textexp2_4" />
 
                 <ImageView
                     android:id="@+id/imageView19"
@@ -109,8 +109,8 @@
                     android:layout_height="200dp"
                     android:adjustViewBounds="false"
                     android:cropToPadding="false"
-                    android:scaleType="centerCrop"
-                    app:srcCompat="@drawable/evolve02" />
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/expe2p5" />
 
                 <TextView
                     android:id="@+id/textViewExp2_5"
@@ -122,7 +122,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginTop="20dp"
-                    android:text="TextView" />
+                    android:text="@string/textexp2_5" />
             </LinearLayout>
         </ScrollView>
 
