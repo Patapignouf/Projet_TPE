@@ -47,6 +47,7 @@ public class Menu extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //Actions du bouton
+                Page1Fragment.marqueur = 0;
                 Intent intent = new Intent(Menu.this, MainActivity.class);
                 startActivity(intent);
             }

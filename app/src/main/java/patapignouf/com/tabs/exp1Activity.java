@@ -20,10 +20,7 @@ public class exp1Activity extends AppCompatActivity {
         String texp1_4 = getResources().getString(R.string.textexp1_4);
         String texp1_5 = getResources().getString(R.string.textexp1_5);
         String texp1_6 = getResources().getString(R.string.textexp1_6);
-        String texp1_7 = getResources().getString(R.string.textexp1_7);
-        String texp1_8 = getResources().getString(R.string.textexp1_8);
-        String texp1_9 = getResources().getString(R.string.textexp1_9);
-        String texp1_10 = getResources().getString(R.string.textexp1_10);
+
 
 
         final TextView tVexp1;
@@ -50,21 +47,6 @@ public class exp1Activity extends AppCompatActivity {
         tVexp1_6 = (TextView) findViewById(R.id.textViewExp1_6);
         tVexp1_6.setText(texp1_6);
 
-        final TextView tVexp1_7;
-        tVexp1_7 = (TextView) findViewById(R.id.textViewExp1_7);
-        tVexp1_7.setText(texp1_7);
 
-
-        final TextView tVexp1_8;
-        tVexp1_8 = (TextView) findViewById(R.id.textViewExp1_8);
-        tVexp1_8.setText(texp1_8);
-
-        final TextView tVexp1_9;
-        tVexp1_9 = (TextView) findViewById(R.id.textViewExp1_9);
-        tVexp1_9.setText(texp1_9);
-
-        final TextView tVexp1_10;
-        tVexp1_10 = (TextView) findViewById(R.id.textViewExp1_10);
-        tVexp1_10.setText(texp1_10);
     }
 }

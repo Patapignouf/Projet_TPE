@@ -25,6 +25,7 @@ public class Page2Fragment extends Fragment {
 
         String retour = getResources().getString(R.string.retour_button);
         String xp1buttonS = getResources().getString(R.string.xp1buttonS);
+        Page1Fragment.marqueur = 1;
 
         Button returnButton;
         returnButton = (Button) rootView.findViewById(R.id.backbutton2);
