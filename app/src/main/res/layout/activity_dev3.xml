@@ -30,7 +30,8 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginTop="20dp"
-                    android:text="@string/textdev3_1" />
+                    android:text="@string/textdev3_1"
+                    android:textAlignment="viewStart" />
 
                 <ImageView
                     android:id="@+id/imageView2"
@@ -51,7 +52,8 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginTop="20dp"
-                    android:text="@string/textdev3_2" />
+                    android:text="@string/textdev3_2"
+                    android:textAlignment="center" />
 
                 <ImageView
                     android:id="@+id/imageView5"
